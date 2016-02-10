@@ -1,0 +1,16 @@
+@relation sparql.queries
+
+@attribute ASK {yes, no}
+@attribute CONSTRUCT {yes, no}
+@attribute OPTIONAL {yes, no}
+@attribute LIMIT {yes, no}
+@attribute OFFSET {yes, no}
+@attribute REGEX {yes, no}
+@attribute _var {yes, no}
+@attribute Prefix {yes, no}
+@attribute nbFilter numeric
+@attribute nbUnion numeric
+@attribute Class {federated, simple}
+
+@data
+
